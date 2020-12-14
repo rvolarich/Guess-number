@@ -1,0 +1,38 @@
+﻿Build started 10.10.2018. 0:45:28.
+     1>Project "E:\DIY\IT\guess_number\guess_number\guess_number.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\guess_number.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt guess_number.cpp
+         guess_number.cpp
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(4): warning C4627: '#include <ctime>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(5): warning C4627: '#include <cstdlib>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(29): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(289): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(303): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(328): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(335): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(469): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(483): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(497): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(522): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(530): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(537): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(704): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(718): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(732): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(746): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(779): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(787): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(794): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+     1>e:\diy\it\guess_number\guess_number\guess_number.cpp(801): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\DIY\IT\guess_number\Debug\guess_number.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\DIY\IT\guess_number\Debug\guess_number.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\DIY\IT\guess_number\Debug\guess_number.lib" /MACHINE:X86 Debug\guess_number.obj
+         Debug\stdafx.obj
+         guess_number.vcxproj -> E:\DIY\IT\guess_number\Debug\guess_number.exe
+     1>Done Building Project "E:\DIY\IT\guess_number\guess_number\guess_number.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96
